@@ -1,0 +1,64 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="400px" height="400px" viewBox="0 0 400 400">
+<defs>
+<g id="Layer0_0_FILL">
+<path fill="#FF0000" stroke="none" d="
+M 202.3 185.15
+Q 201.2 185 200 185 193.75 185 189.4 189.4 185 193.75 185 200 185 201.2 185.15 202.3 185.85 207.05 189.4 210.6 189.6955078125 210.8990234375 190 211.15
+L 190 210 211.15 210
+Q 215 205.7830078125 215 200 215 193.75 210.6 189.4 207.05 185.85 202.3 185.15 Z"/>
+</g>
+
+<g id="spoke_0_Layer0_0_FILL">
+<path fill="#505050" stroke="none" d="
+M 22 0
+L 0 0 0 110 22 110 22 0 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#505050" stroke-width="15" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 325 200
+Q 325 251.75 288.35 288.3 251.75 325 200 325 148.25 325 111.6 288.3 75 251.75 75 200 75 148.25 111.6 111.55 148.25 75 200 75 251.75 75 288.35 111.55 325 148.25 325 200 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_FILL"/>
+
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 0.5, 0.86602783203125, -0.86602783203125, 0.5, 186.35,196.3) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spoke_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( -0.499969482421875, 0.864349365234375, -0.864349365234375, -0.499969482421875, 196.5,186.3) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spoke_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( -0.99700927734375, -0.0001983642578125, 0.0001983642578125, -0.99700927734375, 210.2,190.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spoke_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( -0.494873046875, -0.86212158203125, 0.86212158203125, -0.494873046875, 213.7,203.85) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spoke_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 0.4968109130859375, -0.857635498046875, 0.857635498046875, 0.4968109130859375, 203.65,213.7) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spoke_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 0.9896240234375, 0.0003662109375, -0.0003662109375, 0.9896240234375, 190.1,209.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spoke_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>
