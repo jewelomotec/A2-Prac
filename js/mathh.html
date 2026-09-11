@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geometry Calculator</title>
+</head>
+<body>
+
+    <h2>Geometry Calculator</h2>
+
+    <button onclick="calcTriangle()">Triangle</button>
+    <button onclick="calcHypotenuse()">Pythagoras</button>
+
+    <p id="result"></p>
+
+    <script>
+        function calcTriangle() {
+            var base = Number(prompt("Enter base:"));
+            var height = Number(prompt("Enter height:"));
+
+            var area = 0.5 * base * height;
+
+            document.getElementById("result").innerHTML = "Area = " + area;
+        }
+
+        function calcHypotenuse() {
+            var a = Number(prompt("Enter side a:"));
+            var b = Number(prompt("Enter side b:"));
+
+            var c = Math.sqrt((a * a) + (b * b));
+
+            document.getElementById("result").innerHTML = "Hypotenuse = " + c.toFixed(2);
+        }
+    </script>
+
+</body>
+</html>
