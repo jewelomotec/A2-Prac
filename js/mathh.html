@@ -16,19 +16,27 @@
         function calcTriangle() {
             var base = Number(prompt("Enter base:"));
             var height = Number(prompt("Enter height:"));
-
             var area = 0.5 * base * height;
 
-            document.getElementById("result").innerHTML = "Area = " + area;
+            document.getElementById("result").innerHTML = "Calculating...";
+            setTimeout(showArea, 1000);   // ← pass the named function
+
+            function showArea() {         // ← named function inside
+                document.getElementById("result").innerHTML = "Area = " + area;
+            }
         }
 
         function calcHypotenuse() {
             var a = Number(prompt("Enter side a:"));
             var b = Number(prompt("Enter side b:"));
-
             var c = Math.sqrt((a * a) + (b * b));
 
-            document.getElementById("result").innerHTML = "Hypotenuse = " + c.toFixed(2);
+            document.getElementById("result").innerHTML = "Calculating...";
+            setTimeout(showHypotenuse, 1000);
+
+            function showHypotenuse() {
+                document.getElementById("result").innerHTML = "Hypotenuse = " + c.toFixed(2);
+            }
         }
     </script>
 
