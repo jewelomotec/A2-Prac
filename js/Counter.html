@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>
+Hi
+</title>
+<body>
+<h1> Hi Im making a counter</h1>
+
+<button onclick = "Counter()"> Click me </button>
+<button onclick = "reset()"> Reset </button>
+<h1 id = "result"> </h1>
+<script>
+
+var count = 0;
+
+function Counter() {
+	count++;
+	if (count == 1) {
+		document.getElementById("result").innerHTML = count + " Item Inspected";
+	}
+	else {
+		document.getElementById("result").innerHTML = count + " Items Inspected";
+	}
+
+}
+
+function reset() {
+	count = 0;
+	document.getElementById("result").innerHTML = "Reset Complete";
+
+}
+
+</script>
+
+</body>
+</html>
